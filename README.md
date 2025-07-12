@@ -16,4 +16,10 @@ git clone https://github.com/z-zero-l/study-js.git
 
 ```text
 study-js/
+│
+├── 01-language-fundamentals/      # 1 语言基础
+│   │   01-syntax-core/            # 1.1 语法核心
+│   │   │   ├── 01_write_positions_and_comments.html      # 1.1.1 编写位置与注释
+│   │   │   ├── 01_write_positions.js                     # 1.1.1 编写位置
+│   │   │   └── 02_literals_variables_and_constants.html  # 1.1.2 字面量、变量与常量
 ```
