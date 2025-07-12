@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="#" type="image/x-icon" />
+    <title>Literals, Variables And Constants</title>
+    <script>
+      /* 
+      字面量：一个值，代表其字面意思，无任何隐身义
+       */
+      console.log(1);
+      console.log(true);
+      /* 
+      变量：可以"存储"字面量，通过变量可以对字面量进行描述，且方便修改
+      变量的使用：声明变量(var无作用域/let有作用域) → 变量赋值(=) 可同时进行
+      */
+      let a;
+      console.log(a); // undefined
+      a = 1;
+      console.log(a); // 1
+      a = "OK";
+      console.log(a); // OK
+      let b, c, d;
+      var e,
+        f,
+        g = true;
+      console.log(g); // true
+      /* 
+      常量：不可变的变量，常全大写
+      常量的使用：声明常量(const) → 常量赋值(=) 仅能赋值一次，重复赋值会报错
+      */
+      const PI = 3.1415926;
+      console.log(PI); // 3.1415926
+      // PI = 10; // Uncaught TypeError: invalid assignment to const 'PI'
+    </script>
+  </head>
+  <body></body>
+</html>
