@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="#" type="image/x-icon" />
+  <title>02_comments</title>
+  <script>
+
+    /**
+     * 文档注释 
+     * 使用JSDoc格式
+     * 如果需要折行则在文本中使用 <br/>
+     * 
+     * @param {number} a - 第一个数字
+     * @param {number} b - 第二个数字
+     * @returns {number} 两个数字的和
+     */
+    function add(a, b) {
+      return a + b;
+    }
+
+    /*
+    多行注释 Alt + Shift + a 
+    用于解释一段代码或者阻止一段代码运行
+     */
+    function hello() {
+      console.log("Hello World!");
+    }
+    /*       
+    function hello() {
+      console.log("Hello World!");
+    } 
+    */
+
+    // 单行注释 Ctrl + /
+    console.log("hello world!"); // 解释某行代码的功能或用途
+    // console.log("hello world!"); // 阻止一行代码行的执行 (用于调试)
+    function test() {
+      console.log("Hello World!"); // > Hello World! (显示输出结果)
+      return 3 + 2; // -> 5 (显示表达式结果)
+    }
+  </script>
+</head>
+
+<body></body>
+
+</html>
